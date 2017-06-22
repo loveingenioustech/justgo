@@ -1,5 +1,20 @@
 package main
 
+//var和const变量和常量申明
+//package和import
+//func 用于定义函数和方法
+//return 用于从函数返回
+//defer 用于类似析构函数
+//go 用于并发
+//select 用于选择不同类型的通讯
+//interface 用于定义接口
+//struct 用于定义抽象数据类型
+//break、case、continue、for、fallthrough、else、if、switch、goto、default流程控制
+//chan用于channel通讯
+//type用于声明自定义类型
+//map用于声明map类型数据
+//range用于读取slice、map、channel数据
+
 // 导入其他的包
 import "fmt"
 
