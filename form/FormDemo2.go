@@ -28,6 +28,7 @@ func login2(w http.ResponseWriter, r *http.Request) {
 		token := r.Form.Get("token")
 		if token != "" {
 			//验证token的合法性
+			fmt.Println(token)
 		} else {
 			//不存在token报错
 		}
