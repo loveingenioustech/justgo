@@ -16,6 +16,10 @@ func main() {
 	fmt.Println(b)
 	fmt.Println(c)
 
+	// 指定位置
+	d := [3]int{2:1}
+	fmt.Println(d)
+
 	// 二维数组
 	// 声明了一个二维数组，该数组以两个数组作为元素，其中每个数组中又有4个int类型的元素
 	doubleArray := [2][4]int{[4]int{1, 2, 3, 4}, [4]int{5, 6, 7, 8}}
